@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#toolbar{
+    display: block;
+    text-align: end;
+}
+.bigtitle{
+    text-align: center;
+}
+body{
+    background-color: lightpink;
+}
+body, .bigone, #slider, .slide-content{
+    overflow-x: hidden;
+    height: 100vh;
+    width: 100%;
+}
+.chu{
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    color: red;
+    cursor: pointer;
+}
+head{
+    background-color: rosybrown;
+}
+.slide{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.slide1{background-image: url('./dog.jpg');}
+.slide2{background-image: url('./cat.jpg');}
+.slide3{background-image: url('./pig.jpg');}
+.slide-content{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.slide-content span{
+    margin-top:10rem
+}
+#arrow-left{
+    left: 0;
+    margin-left: 3rem;
+}
+#arrow-right{
+    right: 0;
+    margin-right: 3rem;
+}
