@@ -37,8 +37,9 @@ body, .bigone, #slider, .slide-content{
 }
 .slide-content span{
     margin-top: 5rem;
-    font-size: 5rem;
+    font-size: 2rem;
     color: maroon;
+    cursor: pointer;
 }
 .arrow{
     cursor: pointer;
