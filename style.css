@@ -24,6 +24,7 @@ body, .bigone, #slider, .slide-content{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    size: 100vh;
 }
 .slide1{background-image: url('./dog.jpg');}
 .slide2{background-image: url('./cat.jpg');}
