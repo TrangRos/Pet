@@ -17,15 +17,8 @@ body, .bigone, #slider, .slide-content{
     height: 100vh;
     width: 100%;
 }
-.chu{
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    color: red;
+#nut{
     cursor: pointer;
-}
-head{
-    background-color: rosybrown;
 }
 .slide{
     background-size: cover;
@@ -39,15 +32,25 @@ head{
     display: flex;
     justify-content: center;
     align-content: center;
+    text-align: center;
 }
 .slide-content span{
-    margin-top:10rem
+    margin-top: 5rem;
+    font-size: 5rem;
+    color: maroon;
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
 }
 #arrow-left{
     left: 0;
     margin-left: 3rem;
+    font-size: 5rem;
 }
 #arrow-right{
     right: 0;
     margin-right: 3rem;
+    font-size: 5rem;
 }
