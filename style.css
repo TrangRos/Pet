@@ -34,10 +34,11 @@ body, .bigone, #slider, .slide-content{
     justify-content: center;
     align-content: center;
     text-align: center;
+    font-size: 2rem;
 }
 .slide-content span{
-    margin-top: 5rem;
-    font-size: 2rem;
+    position: absolute;
+    top: 50%;
     color: maroon;
     cursor: pointer;
 }
