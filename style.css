@@ -12,33 +12,36 @@
 body{
     background-color: lightpink;
 }
-body, .bigone, #slider, .slide-content{
+body, .wrap, #slider, .slide-content{
     overflow-x: hidden;
     height: 100vh;
     width: 100%;
 }
-#nut{
+.onehead{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nut{
     cursor: pointer;
 }
 .slide{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    size: 100vh;
 }
 .slide1{background-image: url('./dog.jpg');}
 .slide2{background-image: url('./cat.jpg');}
 .slide3{background-image: url('./pig.jpg');}
 .slide-content{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     text-align: center;
-    font-size: 2rem;
 }
 .slide-content span{
-    position: absolute;
-    top: 50%;
+    font-size: 5rem;
     color: maroon;
     cursor: pointer;
 }
