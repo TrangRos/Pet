@@ -1,0 +1,14 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-color:lightpink
+}
+.onehead{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.nut{
+    cursor: pointer;
