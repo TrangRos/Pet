@@ -2,20 +2,8 @@
     padding: 0px;
     margin: 0px;
 }
-#toolbar{
-    display: block;
-    text-align: end;
-}
-.bigtitle{
-    text-align: center;
-}
 body{
-    background-color: lightpink;
-}
-body, .wrap, #slider, .slide-content{
-    overflow-x: hidden;
-    height: 100vh;
-    width: 100%;
+    background-color:lightpink
 }
 .onehead{
     display: flex;
@@ -24,39 +12,3 @@ body, .wrap, #slider, .slide-content{
 }
 .nut{
     cursor: pointer;
-}
-.slide{
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.slide1{background-image: url('./dog.jpg');}
-.slide2{background-image: url('./cat.jpg');}
-.slide3{background-image: url('./pig.jpg');}
-.slide-content{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    text-align: center;
-}
-.slide-content span{
-    font-size: 5rem;
-    color: maroon;
-    cursor: pointer;
-}
-.arrow{
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-}
-#arrow-left{
-    left: 0;
-    margin-left: 3rem;
-    font-size: 5rem;
-}
-#arrow-right{
-    right: 0;
-    margin-right: 3rem;
-    font-size: 5rem;
-}
